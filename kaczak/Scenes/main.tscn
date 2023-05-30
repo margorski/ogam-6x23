@@ -9,10 +9,10 @@ size = Vector2(605, 20)
 [node name="Main" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource("1_hrvwp")]
-position = Vector2(317, 220)
+position = Vector2(160, 235)
 
 [node name="TestScreenBottom" type="StaticBody2D" parent="."]
-position = Vector2(9, 791)
+position = Vector2(9, 393)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TestScreenBottom"]
 position = Vector2(292.5, 0)
@@ -22,7 +22,7 @@ debug_color = Color(0.462745, 0.298039, 0, 0.717647)
 [node name="Rows" type="Node" parent="."]
 
 [node name="Row1" type="Node2D" parent="Rows"]
-position = Vector2(0, 700)
+position = Vector2(0, 302)
 
 [node name="SolidBlock2" parent="Rows/Row1" instance=ExtResource("2_2uwx8")]
 position = Vector2(10, 0)
@@ -58,7 +58,7 @@ position = Vector2(100, 0)
 position = Vector2(0, 0)
 
 [node name="Row2" type="Node2D" parent="Rows"]
-position = Vector2(192, 733)
+position = Vector2(192, 335)
 
 [node name="SolidBlock2" parent="Rows/Row2" instance=ExtResource("2_2uwx8")]
 position = Vector2(10, 0)
@@ -94,7 +94,7 @@ position = Vector2(100, 0)
 position = Vector2(0, 0)
 
 [node name="Row3" type="Node2D" parent="Rows"]
-position = Vector2(368, 753)
+position = Vector2(39, 354)
 
 [node name="SolidBlock2" parent="Rows/Row3" instance=ExtResource("2_2uwx8")]
 position = Vector2(10, 0)
@@ -129,80 +129,8 @@ position = Vector2(100, 0)
 [node name="SolidBlock" parent="Rows/Row3" instance=ExtResource("2_2uwx8")]
 position = Vector2(0, 0)
 
-[node name="Row4" type="Node2D" parent="Rows"]
-position = Vector2(477, 703)
-
-[node name="SolidBlock2" parent="Rows/Row4" instance=ExtResource("2_2uwx8")]
-position = Vector2(10, 0)
-
-[node name="SolidBlock3" parent="Rows/Row4" instance=ExtResource("2_2uwx8")]
-position = Vector2(20, 0)
-
-[node name="SolidBlock4" parent="Rows/Row4" instance=ExtResource("2_2uwx8")]
-position = Vector2(30, 0)
-
-[node name="SolidBlock5" parent="Rows/Row4" instance=ExtResource("2_2uwx8")]
-position = Vector2(40, 0)
-
-[node name="SolidBlock6" parent="Rows/Row4" instance=ExtResource("2_2uwx8")]
-position = Vector2(50, 0)
-
-[node name="SolidBlock7" parent="Rows/Row4" instance=ExtResource("2_2uwx8")]
-position = Vector2(60, 0)
-
-[node name="SolidBlock8" parent="Rows/Row4" instance=ExtResource("2_2uwx8")]
-position = Vector2(70, 0)
-
-[node name="SolidBlock9" parent="Rows/Row4" instance=ExtResource("2_2uwx8")]
-position = Vector2(80, 0)
-
-[node name="SolidBlock10" parent="Rows/Row4" instance=ExtResource("2_2uwx8")]
-position = Vector2(90, 0)
-
-[node name="SolidBlock11" parent="Rows/Row4" instance=ExtResource("2_2uwx8")]
-position = Vector2(100, 0)
-
-[node name="SolidBlock" parent="Rows/Row4" instance=ExtResource("2_2uwx8")]
-position = Vector2(0, 0)
-
-[node name="Row5" type="Node2D" parent="Rows"]
-position = Vector2(304, 649)
-
-[node name="SolidBlock2" parent="Rows/Row5" instance=ExtResource("2_2uwx8")]
-position = Vector2(10, 0)
-
-[node name="SolidBlock3" parent="Rows/Row5" instance=ExtResource("2_2uwx8")]
-position = Vector2(20, 0)
-
-[node name="SolidBlock4" parent="Rows/Row5" instance=ExtResource("2_2uwx8")]
-position = Vector2(30, 0)
-
-[node name="SolidBlock5" parent="Rows/Row5" instance=ExtResource("2_2uwx8")]
-position = Vector2(40, 0)
-
-[node name="SolidBlock6" parent="Rows/Row5" instance=ExtResource("2_2uwx8")]
-position = Vector2(50, 0)
-
-[node name="SolidBlock7" parent="Rows/Row5" instance=ExtResource("2_2uwx8")]
-position = Vector2(60, 0)
-
-[node name="SolidBlock8" parent="Rows/Row5" instance=ExtResource("2_2uwx8")]
-position = Vector2(70, 0)
-
-[node name="SolidBlock9" parent="Rows/Row5" instance=ExtResource("2_2uwx8")]
-position = Vector2(80, 0)
-
-[node name="SolidBlock10" parent="Rows/Row5" instance=ExtResource("2_2uwx8")]
-position = Vector2(90, 0)
-
-[node name="SolidBlock11" parent="Rows/Row5" instance=ExtResource("2_2uwx8")]
-position = Vector2(100, 0)
-
-[node name="SolidBlock" parent="Rows/Row5" instance=ExtResource("2_2uwx8")]
-position = Vector2(0, 0)
-
 [node name="Row6" type="Node2D" parent="Rows"]
-position = Vector2(87, 606)
+position = Vector2(99, 252)
 
 [node name="SolidBlock2" parent="Rows/Row6" instance=ExtResource("2_2uwx8")]
 position = Vector2(10, 0)
@@ -238,7 +166,7 @@ position = Vector2(100, 0)
 position = Vector2(0, 0)
 
 [node name="Row7" type="Node2D" parent="Rows"]
-position = Vector2(382, 549)
+position = Vector2(226, 95)
 
 [node name="SolidBlock2" parent="Rows/Row7" instance=ExtResource("2_2uwx8")]
 position = Vector2(10, 0)
@@ -274,7 +202,7 @@ position = Vector2(100, 0)
 position = Vector2(0, 0)
 
 [node name="Row8" type="Node2D" parent="Rows"]
-position = Vector2(89, 519)
+position = Vector2(89, 121)
 
 [node name="SolidBlock2" parent="Rows/Row8" instance=ExtResource("2_2uwx8")]
 position = Vector2(10, 0)
@@ -310,7 +238,7 @@ position = Vector2(100, 0)
 position = Vector2(0, 0)
 
 [node name="Row9" type="Node2D" parent="Rows"]
-position = Vector2(226, 575)
+position = Vector2(205, 206)
 
 [node name="SolidBlock2" parent="Rows/Row9" instance=ExtResource("2_2uwx8")]
 position = Vector2(10, 0)
@@ -346,7 +274,7 @@ position = Vector2(100, 0)
 position = Vector2(0, 0)
 
 [node name="Row10" type="Node2D" parent="Rows"]
-position = Vector2(495, 502)
+position = Vector2(11, 173)
 
 [node name="SolidBlock2" parent="Rows/Row10" instance=ExtResource("2_2uwx8")]
 position = Vector2(10, 0)
@@ -382,7 +310,7 @@ position = Vector2(100, 0)
 position = Vector2(0, 0)
 
 [node name="Row11" type="Node2D" parent="Rows"]
-position = Vector2(295, 487)
+position = Vector2(182, 38)
 
 [node name="SolidBlock2" parent="Rows/Row11" instance=ExtResource("2_2uwx8")]
 position = Vector2(10, 0)
@@ -418,7 +346,7 @@ position = Vector2(100, 0)
 position = Vector2(0, 0)
 
 [node name="Row12" type="Node2D" parent="Rows"]
-position = Vector2(24, 465)
+position = Vector2(24, 67)
 
 [node name="SolidBlock2" parent="Rows/Row12" instance=ExtResource("2_2uwx8")]
 position = Vector2(10, 0)
