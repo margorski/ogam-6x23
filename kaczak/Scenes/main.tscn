@@ -3,20 +3,19 @@
 [ext_resource type="PackedScene" uid="uid://dj100meqgo1wr" path="res://Scenes/player.tscn" id="1_hrvwp"]
 [ext_resource type="PackedScene" uid="uid://diisa5jk5gy3v" path="res://Scenes/game_manager.tscn" id="5_sgvyn"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_ar5l0"]
-size = Vector2(605, 20)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_aondv"]
+size = Vector2(607, 20)
 
 [node name="Main" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource("1_hrvwp")]
-position = Vector2(160, 235)
-
-[node name="TestScreenBottom" type="StaticBody2D" parent="."]
-position = Vector2(9, 393)
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TestScreenBottom"]
-position = Vector2(292.5, 0)
-shape = SubResource("RectangleShape2D_ar5l0")
-debug_color = Color(0.462745, 0.298039, 0, 0.717647)
+position = Vector2(226, 778)
 
 [node name="GameManager" parent="." instance=ExtResource("5_sgvyn")]
+
+[node name="Ground" type="StaticBody2D" parent="."]
+position = Vector2(2, 802)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground"]
+position = Vector2(298, 3)
+shape = SubResource("RectangleShape2D_aondv")
